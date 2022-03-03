@@ -1,0 +1,13 @@
+{
+	"folders": [
+        {
+            "name": "Aromas lanchonete",
+            "path": "recorded",
+        },
+        // {
+        //     "name": "Root",
+        //     "path": "."
+        // }
+    ],
+	"settings": {}
+}
