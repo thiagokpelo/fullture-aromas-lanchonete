@@ -1,0 +1,28 @@
+.faq {
+    background-color: #eceeef;
+}
+
+.faq-details {
+    border: 2px solid #a5bac5;
+    border-radius: 12px;
+    max-width: 50%;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.faq-details:not(:last-of-type) {
+    margin-bottom: 16px;
+}
+
+.faq-details-summary {
+    cursor: pointer;
+}
+
+.faq-details[open] .faq-details-summary {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #a5bac5;
+}
+
+.faq-details-content {
+    padding-top: 12px;
+}
