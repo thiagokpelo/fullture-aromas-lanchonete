@@ -1,29 +1,21 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: #eceeef;
     border-bottom: 2px solid #a5bac5;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-/* cleafix */
-.header::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
 .header-logo {
     display: block;
     width: 200px;
-    float: left;
 }
 
 .header-logo img {
     width: 100%;
-}
-
-.header-navigation {
-    float: right;
 }
 
 .header-navigation-item {

@@ -1,11 +1,12 @@
 .testimonials-list {
+    display: flex;
+    gap: 16px;
     list-style: none;
     text-align: center;
 }
 
 .testimonials-list-item {
-    display: inline-block;
-    width: 33%;
+    flex: 1;
     padding: 16px;
 }
 
