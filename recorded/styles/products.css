@@ -3,7 +3,7 @@
     gap: 16px;
 }
 
-.products-card-reverse {
+.products-card:nth-of-type(2n) {
     flex-direction: row-reverse;
     text-align: right;
     margin: 16px 0;
