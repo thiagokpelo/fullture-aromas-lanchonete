@@ -1,0 +1,22 @@
+.testimonials-list {
+    list-style: none;
+    text-align: center;
+}
+
+.testimonials-list-item {
+    display: inline-block;
+    width: 33%;
+    padding: 16px;
+}
+
+.testimonials-thumbnail {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonials-username {
+    font-size: 0.6em;
+    font-weight: 500;
+}
