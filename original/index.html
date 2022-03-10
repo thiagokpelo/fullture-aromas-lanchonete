@@ -7,88 +7,33 @@
 
     <title>Aromas lanchonete</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-
-        header {
-            background-color: #eceeef;
-            border-bottom: 2px solid #a5bac5;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            padding-left: 24px;
-            padding-right: 24px;
-        }
-
-        /* clearfix */
-        header::after {
-            content: '';
-            clear: both;
-            display: table;
-        }
-
-        #logo {
-            display: block;
-            width: 200px;
-            float: left;
-        }
-
-        #logo img {
-            width: inherit;
-        }
-
-        header nav {
-            float: right;
-        }
-
-        header ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        header li {
-            display: inline;
-        }
-
-        header li a {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-decoration: none;
-            color: #2a0f14;
-        }
-
-        a:hover {
-            color: #e18795;
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/banner.css">
 </head>
 
 <body>
     <!-- Cabeçalho -->
-    <header>
-        <a id="logo" href="index.html">
+    <header class="header">
+        <a class="header-logo" href="index.html">
             <img src="images/aromas-logo.jpg" alt="Aromas lanchonete">
         </a>
 
-        <nav>
-            <ul>
-                <li>
+        <nav class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-navigation-item">
                     <a href="#">Produtos</a>
                 </li>
-                <li>|</li>
-                <li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
                     <a href="#">Preços</a>
                 </li>
-                <li>|</li>
-                <li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
                     <a href="#">Contato</a>
                 </li>
-                <li>|</li>
-                <li>
-                    <a href="#">Faça seu pedido</a>
+                <li class="header-navigation-item">
+                    <a class="header-navigation-link" href="#">Faça seu pedido</a>
                 </li>
             </ul>
         </nav>
@@ -96,14 +41,20 @@
 
     <!-- Conteúdo principal -->
     <main>
-        <section id="banner-highlight">
-            <h2>Os melhores salgados da região</h2>
+        <section class="banner-highlight">
+            <div class="banner-highlight-content">
+                <h2 class="banner-highlight-title">Os melhores salgados da região</h2>
+    
+                <h3 class="banner-highlight-subtitle">Combo: Coxinha com requeijão mais um refri</h3>
+    
+                <p class="banner-highlight-description">Nossos salgados são feitos com massa de batata e produtos de primeira qualidade</p>
 
-            <h3>Combo: Coxinha com requeijão mais um refri</h3>
+                <a class="banner-highlight-link" href="#">Venha provar</a>
+            </div>
 
-            <p>Nossos salgados são feitos com massa de batata e produtos de primeira qualidade</p>
-
-            <img src="images/coxinha-com-refri-transparente.png" alt="Coxinha com um refrigerante em lata">
+            <div class="banner-highlight-image-background">
+                <img src="images/coxinha-com-refri-transparente.png" alt="Coxinha com um refrigerante em lata">
+            </div>
         </section>
 
         <section id="products">
