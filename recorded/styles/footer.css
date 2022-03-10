@@ -1,0 +1,35 @@
+.footer {
+    background-color: #2a0f14;
+    color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* clearfix */
+.footer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.footer-navigation,
+.footer-content {
+    float: left;
+    width: 25%;
+}
+
+.footer-navigation-title {
+    margin-bottom: 8px;
+}
+
+.footer-navigation-list {
+    margin-left: 16px;
+    line-height: 28px;
+    list-style: square;
+}
+
+.footer-content-legal-text {
+    display: block;
+    margin-top: 16px;
+    font-size: 12px;
+}

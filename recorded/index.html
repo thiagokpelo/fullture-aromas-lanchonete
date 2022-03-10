@@ -8,13 +8,17 @@
     <title>Aromas lanchonete</title>
 
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
     <!-- Cabeçalho -->
-    <header class="header">
+    <header class="header layout-fluid">
         <a class="header-logo" id="logo" href="index.html">
             <img src="images/aromas-logo.jpg" alt="Aromas lanchonete">
         </a>
@@ -32,9 +36,8 @@
                 <li class="header-navigation-item">
                     <a href="#">Contato</a>
                 </li>
-                <li class="header-navigation-item">|</li>
                 <li class="header-navigation-item">
-                    <a class="header-navigation-link" href="#">Faça seu pedido</a>
+                    <a class="button" href="#">Faça seu pedido</a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +45,7 @@
 
     <!-- Conteúdo principal -->
     <main>
-        <section class="banner-highlight">
+        <section class="banner-highlight layout">
             <div class="banner-highlight-content">
                 <h2 class="banner-highlight-title">Os melhores salgados da região</h2>
 
@@ -50,7 +53,7 @@
 
                 <p class="banner-highlight-description">Nossos salgados são feitos com massa de batata e produtos de primeira qualidade</p>
 
-                <a class="banner-highlight-link" href="#">Venha provar</a>
+                <a class="button button-outlined" href="#">Venha provar</a>
             </div>
 
             <div class="banner-highlight-image-background">
@@ -125,49 +128,51 @@
     </main>
 
     <!-- Rodapé -->
-    <footer>
-        <nav>
-            <h4>Produtos</h4>
-            <ul>
+    <footer class="footer layout-fluid">
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">Produtos</h4>
+            <ul class="footer-navigation-list">
                 <li><a href="#">Fritos</a></li>
                 <li><a href="#">Assados</a></li>
                 <li><a href="#">Congelados</a></li>
             </ul>
         </nav>
 
-        <nav>
-            <h4>Dicas</h4>
-            <ul>
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">Dicas</h4>
+            <ul class="footer-navigation-list">
                 <li><a href="#">Salgados com massa de batata</a></li>
                 <li><a href="#">Kibe com tempero caseiro</a></li>
                 <li><a href="#">Temperatura ideal do óleo</a></li>
             </ul>
         </nav>
 
-        <nav>
-            <h4>A empresa</h4>
-            <ul>
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">A empresa</h4>
+            <ul class="footer-navigation-list">
                 <li><a href="#">Por que o Aromas?</a></li>
                 <li><a href="#">Nossos diferenciais</a></li>
                 <li><a href="#">Regiões que atendemos</a></li>
             </ul>
         </nav>
 
-        <img src="images/mac-app-store.webp" alt="Mac App Store">
+        <div class="footer-content">
+            <img src="images/mac-app-store.webp" alt="Mac App Store">
 
-        <img src="images/play-store.webp" alt="Play Store">
+            <img src="images/play-store.webp" alt="Play Store">
 
-        <small>
-            ©2022 Todos os direitos reservados.
-            Apple e o logotipo da Apple são marcas registadas da Apple Inc.
-            Mac App Store é marca de serviços da Apple Inc.
-            Google Play e o logotipo do Google Play são marcas registradas da Google Inc.
-            <a href="#">Privacidade</a>
-            |
-            <a href="#">Termos</a>
-            |
-            <a href="#">Preferências de cookies</a>
-        </small>
+            <small class="footer-content-legal-text">
+                ©2022 Todos os direitos reservados.
+                Apple e o logotipo da Apple são marcas registadas da Apple Inc.
+                Mac App Store é marca de serviços da Apple Inc.
+                Google Play e o logotipo do Google Play são marcas registradas da Google Inc.
+                <a href="#">Privacidade</a>
+                |
+                <a href="#">Termos</a>
+                |
+                <a href="#">Preferências de cookies</a>
+            </small>
+        </div>
     </footer>
 </body>
 </html>
