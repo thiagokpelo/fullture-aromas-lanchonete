@@ -1,21 +1,25 @@
 .banner-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     background-image: url(../images/fundo.png);
     background-size: contain;
     background-position: center;
     padding: 32px 24px;
 }
 
-/* clearfix */
-.banner-highlight::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
 .banner-highlight-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
     background-color: #e18795;
     padding: 24px;
-    float: left;
+
+    width: auto;
+    max-width: 65%;
 }
 
 .banner-highlight-title {
@@ -38,7 +42,6 @@
     height: 300px;
     border: 10px solid #f41668;
     border-radius: 50%;
-    float: right;
 }
 
 .banner-highlight-image-background img {
