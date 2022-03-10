@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Aromas lanchonete</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header layout-fluid">
+        <a class="header-logo" id="logo" href="index.html">
+            <img src="images/aromas-logo.jpg" alt="Aromas lanchonete">
+        </a>
+
+        <nav>
+            <ul class="header-navigation-list">
+                <li class="header-navigation-item">
+                    <a href="#products">Produtos</a>
+                </li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
+                    <a href="#">Preços</a>
+                </li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a class="button" href="#">Faça seu pedido</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <section class="section layout">
+            <h2 class="section-title">Entre em contato</h2>
+
+            <form action="" class="form">
+                <div class="form-row">
+                    <label class="form-label-block" for="name">Nome</label>
+                    <input class="form-input" id="name" name="name" type="text" placeholder="Thiago Kpelo">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="email">E-mail</label>
+                    <input class="form-input" type="email" name="email" id="email" placeholder="thiagokpelo@gmail.com">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="phone">Telefone</label>
+                    <input class="form-input" type="tel" name="phone" id="phone" placeholder="11 90000 0000">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="message">Mensagem</label>
+                    <textarea class="form-input" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-row form-row-inline">
+                    <input class="form-input" type="checkbox" name="newsletter" id="newsletter">
+                    <label class="form-label-inline" for="newsletter">Quer receber nossos conteúdos?</label>
+                </div>
+
+                <div class="form-row">
+                    <button class="button form-button" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer layout-fluid">
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">Produtos</h4>
+            <ul class="footer-navigation-list">
+                <li><a href="#">Fritos</a></li>
+                <li><a href="#">Assados</a></li>
+                <li><a href="#">Congelados</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">Dicas</h4>
+            <ul class="footer-navigation-list">
+                <li><a href="#">Salgados com massa de batata</a></li>
+                <li><a href="#">Kibe com tempero caseiro</a></li>
+                <li><a href="#">Temperatura ideal do óleo</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer-navigation">
+            <h4 class="footer-navigation-title">A empresa</h4>
+            <ul class="footer-navigation-list">
+                <li><a href="#">Por que o Aromas?</a></li>
+                <li><a href="#">Nossos diferenciais</a></li>
+                <li><a href="#">Regiões que atendemos</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-content">
+            <img src="images/mac-app-store.webp" alt="Mac App Store">
+
+            <img src="images/play-store.webp" alt="Play Store">
+
+            <small class="footer-content-legal-text">
+                ©2022 Todos os direitos reservados.
+                Apple e o logotipo da Apple são marcas registadas da Apple Inc.
+                Mac App Store é marca de serviços da Apple Inc.
+                Google Play e o logotipo do Google Play são marcas registradas da Google Inc.
+                <a href="#">Privacidade</a>
+                |
+                <a href="#">Termos</a>
+                |
+                <a href="#">Preferências de cookies</a>
+            </small>
+        </div>
+    </footer>
+</body>
+</html>
