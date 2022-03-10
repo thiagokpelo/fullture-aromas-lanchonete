@@ -8,6 +8,12 @@
     <title>Aromas lanchonete</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
         header {
             background-color: #eceeef;
             border-bottom: 2px solid #a5bac5;
@@ -17,8 +23,25 @@
             padding-bottom: 24px;
         }
 
-        header img {
+        /* cleafix */
+        header::after {
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        #logo {
+            display: block;
             width: 200px;
+            float: left;
+        }
+
+        header img {
+            width: 100%;
+        }
+
+        header nav {
+            float: right;
         }
         
         header ul {
@@ -46,7 +69,7 @@
 <body>
     <!-- Cabeçalho -->
     <header>
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <img src="images/aromas-logo.jpg" alt="Aromas lanchonete">
         </a>
 
