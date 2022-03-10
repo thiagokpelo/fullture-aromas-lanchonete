@@ -28,27 +28,7 @@
 }
 
 .banner-highlight-description {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 24px;;
-}
-
-.banner-highlight-link {
-    display: inline-block;
-    border: 2px solid #2a0f14;
-    border-radius: 12px;
-    padding: 8px 24px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #2a0f14;
-    background-color: transparent;
-}
-
-.banner-highlight-link:hover {
-    color: #fff;
-    background-color: #2a0f14;
-    text-decoration: none;
+    margin-bottom: 24px;
 }
 
 .banner-highlight-image-background {
