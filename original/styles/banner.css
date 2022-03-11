@@ -48,3 +48,21 @@
     object-fit: contain;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .banner-highlight-content {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .banner-highlight-image-background {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner-highlight-image-background {
+        width: 200px;
+        height: 200px;
+    }
+}
