@@ -33,3 +33,9 @@
 .form-button {
     max-width: 280px;
 }
+
+@media screen and (max-width: 500px) {
+    .form-button {
+        max-width: initial;
+    }
+}

@@ -26,3 +26,9 @@
 .faq-details-content {
     padding-top: 12px;
 }
+
+@media screen and (max-width: 768px) {
+    .faq-details {
+        max-width: initial;
+    }
+}
