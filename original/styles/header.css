@@ -22,3 +22,21 @@
     display: inline;
     padding: 0 4px;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-logo {
+        margin-bottom: 16px;
+    }
+
+    .header-navigation-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
