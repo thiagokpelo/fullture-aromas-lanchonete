@@ -21,3 +21,9 @@
     font-weight: 500;
     font-size: 0.6em;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials-list {
+        flex-direction: column;
+    }
+}
