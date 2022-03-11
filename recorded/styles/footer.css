@@ -20,7 +20,7 @@
 .footer-content-legal-text {
     display: block;
     margin-top: 16px;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {
