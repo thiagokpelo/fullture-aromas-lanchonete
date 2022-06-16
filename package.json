@@ -1,0 +1,25 @@
+{
+  "name": "fullture-aromas-lanchonete",
+  "version": "1.0.0",
+  "description": "Projeto do site Aromas Lanchonete para a trilha de HTML e CSS na Fullture",
+  "main": "recorded/index.html",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d . -b production --src original --add original",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagokpelo/fullture-aromas-lanchonete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagokpelo/fullture-aromas-lanchonete/issues"
+  },
+  "homepage": "https://github.com/thiagokpelo/fullture-aromas-lanchonete#readme"
+}
