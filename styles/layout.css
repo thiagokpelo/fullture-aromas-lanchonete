@@ -1,0 +1,15 @@
+.layout {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+.layout-fluid {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+@media screen and (max-width: 768px) {
+    .layout {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

@@ -1,0 +1,68 @@
+.banner-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url(../images/fundo.png);
+    background-size: contain;
+    background-position: center;
+    padding: 32px 24px;
+}
+
+.banner-highlight-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    background-color: #e18795;
+    padding: 24px;
+
+    width: auto;
+    max-width: 65%;
+}
+
+.banner-highlight-title {
+    font-size: 18px;
+}
+
+.banner-highlight-subtitle {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.banner-highlight-description {
+    margin-bottom: 24px;
+}
+
+.banner-highlight-image-background {
+    display: block;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #f41668;
+    border-radius: 50%;
+}
+
+.banner-highlight-image-background img {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-highlight-content {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .banner-highlight-image-background {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner-highlight-image-background {
+        width: 200px;
+        height: 200px;
+    }
+}

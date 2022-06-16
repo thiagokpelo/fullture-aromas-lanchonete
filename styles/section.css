@@ -1,0 +1,21 @@
+.section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section-title::after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #2a0f14;
+    margin-top: 8px;
+}
